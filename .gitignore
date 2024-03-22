@@ -1,0 +1,10 @@
+# Ignore CMake files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+*.cmake
+
+# Ignore Makefiles
+Makefile
+CMakeLists.txt.user
