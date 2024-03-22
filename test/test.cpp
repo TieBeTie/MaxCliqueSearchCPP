@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 #include <sstream>
-#include "MaxCliqueSearch.hpp"
+#include "../include/MaxCliqueSearch.hpp"
 
 
 TEST(MaxCliqueTest, ExampleTest1) {

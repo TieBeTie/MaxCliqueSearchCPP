@@ -2,7 +2,7 @@
 #include <vector>
 #include <iostream>
 
-#include "MaxCliqueSearch.hpp"
+#include "../include/MaxCliqueSearch.hpp"
 
 using std::vector;
 using std::cin;
