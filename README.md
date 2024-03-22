@@ -1,2 +1,2 @@
 # MaxCliqueSearchCPP
-This is a clear and comprehensible implementation of a maximum clique search algorithm in C++ designed to operate within an upper bound of O(n/2) complexity, where the upper bound is set to 62.
+This is a clear and comprehensible implementation of a maximum clique search algorithm in C++ designed to operate within an upper bound of O(n/2) complexity.
