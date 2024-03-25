@@ -15,7 +15,7 @@ constexpr int kMaxVerticesCount = 62;
 
 class MaxClique {
  public:
-  // O(2^(n/2))
+  // Θ(2^(n/2))
   using Graph64Vertices = int64_t;
   using Graph32Vertices = int32_t;
 
@@ -125,7 +125,7 @@ class MaxClique {
     }
     return neighbor;
   }
-  // returns right_graph masks O(2^(n/2))
+  // returns right_graph masks Θ(2^(n/2))
   vector<Graph32Vertices> FindNeigboursLeftGraphInRightGraph(
       const vector<vector<bool>>& general_graph,
       const vector<vector<bool>>& left_graph,
@@ -157,7 +157,7 @@ class MaxClique {
 
     return dp;
   }
-  // O(2^n)
+  // Θ(2^n)
   vector<bool> FindCliques(vector<vector<bool>>& matrix_graph) {
     assert(matrix_graph.size() <= kMaxVerticesCount / 2);
     vector<bool> dp(GetNextGraphAfterCliqueOnNVertices(matrix_graph.size()),
@@ -176,7 +176,7 @@ class MaxClique {
 
     return dp;
   }
-  // O(2^n)
+  // Θ(2^n)
   vector<Graph32Vertices> FindMaxCliquesByMatrixGraph(
       vector<vector<bool>>& matrix_graph) {
     assert(matrix_graph.size() <= kMaxVerticesCount / 2);
